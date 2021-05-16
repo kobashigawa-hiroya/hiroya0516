@@ -1,0 +1,73 @@
+.plan {
+	padding-top: 80px;
+	.inner {
+		
+	}
+}
+
+.rec {
+	padding-top: 60px;
+	.rec-slick {
+	}
+	.rec-item {
+		display:flex;
+		flex-flow: column-reverse;
+		border-radius: 8px;
+		overflow: hidden;
+		margin-left: 10px;
+		margin-right: 10px;
+		.text {
+			background-color: cl(white);
+			padding: 25px 25px 50px 25px;
+		}
+		.title {
+			color:cl(text)
+		}
+		.price {
+			> span {
+color: red;
+			}
+		}
+		.img {
+
+		}
+	}
+}
+.service {
+	.service-wrap {
+		padding-top: 100px;
+
+	} 
+	.service-list{
+		display: flex;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	.service-item{
+		background-color: cl(lightgrey);
+		display: flex;
+		flex-flow:column-reverse;
+		width :perspective(390/ 1200);
+			+ .service-item {
+				margin-left: 20px;
+			}
+		.text{
+			padding-left: 20px;
+			padding-right: 20px;
+			
+		}
+		.title {
+			font-size: 28px;
+			text-align: center;
+		}
+		.desc{
+			padding-top: 40px;
+			font-size: 18px;
+		}
+		.image {
+			width: 160px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

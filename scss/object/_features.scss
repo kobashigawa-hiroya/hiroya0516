@@ -1,0 +1,57 @@
+.feature {
+	padding-top: 80px;
+	.inner {
+
+	}
+	.feature-cont {
+		padding-top: 60px;
+	}
+	.feature-list {
+
+	}
+	.feature-items {
+		display: flex;
+		color: cl(white);
+		&:nth-child(odd){
+			flex-flow: row-reverse;
+			.img {
+				margin-right: 40px;
+			}
+			.text{
+				margin-right: 40px;
+			}
+		}
+			&:nth-child(even){
+				.img {
+						margin-left: 40px;
+				}
+	}
+		.text {
+			flex: 1;
+			padding-top: 40px;
+		}
+		.title {
+			color: cl(baige);
+			font-size: 28px;
+			padding-left: 30px;
+		}
+		.desc {
+			font-size: 18px;
+			margin-top: 50px;
+			margin-left: 20px;
+		}
+
+		.img {
+			width: percentage(640/ 1280);
+			/* 全体の幅1280・画像640pxなので、640÷1280で計算（全体の何％が画像になっているかの計算）*/
+		}
+	}
+	.feture-link  {
+		padding-top:60px;
+		text-align: center;
+		a {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

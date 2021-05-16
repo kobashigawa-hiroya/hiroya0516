@@ -1,0 +1,42 @@
+.header {
+
+.header-fixed {
+	background-color: #EABEBF;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 1;
+}
+
+.header-logo {
+	width: 150px;
+	margin-left: 30px;
+}
+
+.nav-btn {
+	display: none;
+}
+
+
+.nav-list {
+	display: flex;
+
+	.item{ 
+		+ .item {
+			margin-left: 20px;
+			padding-right: 40px;
+		}
+
+	}
+	 a{
+		color: cl(white);
+		font-size: 18px;
+	 }
+}
+
+}

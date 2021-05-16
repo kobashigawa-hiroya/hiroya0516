@@ -1,0 +1,52 @@
+.cmn-section {
+	&.-black {
+		background-color: #EABEBF
+		;
+	}
+}
+
+.cmn-title {
+	display: grid;
+	text-align: center;
+	color: white;
+}
+
+.comn-title {
+	text-align: center;
+	color: cl(white);
+	.main {
+		text-align: center;
+		display: block;
+		font-size: 32px;
+		color: cl(white);
+		text-transform: capitalize;
+		padding-bottom: 20px;
+		&.-faq{
+			text-transform: uppercase;
+		}
+
+	}
+	.sub {
+		display: block;
+		color: cl(white);
+		font-size: 20px;
+		@include TimesNewRoman;
+		margin-top: 5px;
+		padding-bottom: 20px;
+	}
+}
+
+.cmn-link {
+	padding-bottom: 15px;
+	a {
+		color: cl(white);
+		background-color: #A5DEE5;
+		display: flex;
+		width: 155px;
+		height: 37px;
+		align-items: center;
+		justify-content: center;
+		border-radius: 8px;
+		font-size: 14px;
+	}
+}
